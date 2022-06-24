@@ -20,3 +20,4 @@ Comandos do git:
   git init - inicia uma pasta como uma pasta de repositório, ou seja uma pasta que pode ser subida para o github
   git add <!--Nome do arquivo--> - Sobe para um armazenamento temporario o arquivo selecionado
   git add --all - Adiciona TODOS os arquivos dentro da pasta para um armazenamento temporário
+  git commit -m "Mensagem que fala um pouco sobre a mudança feita" - Serve para confirmar as mudanças feitas e salvar essas mudanças
