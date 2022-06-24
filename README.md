@@ -22,3 +22,6 @@ Comandos do git:
   git add --all - Adiciona TODOS os arquivos dentro da pasta para um armazenamento temporário
   git commit -m "Mensagem que fala um pouco sobre a mudança feita" - Serve para confirmar as mudanças feitas e salvar essas mudanças
   git remote add origin <!--Link do repositório de destino--> - Faz com que o repositório tenha sido setado como destindo do upload dos arquivos
+  git config <!-- --global --> user.email "seu email do git" - Esse comando permite que o git coloque seu repositório no github pelo email registrado, vale adicionar também que esse --global serve para cadastrar seu emal como global, sem ele você tem que fazer esse comando para toda a vez que tiver um repositório que deseje ser passado para o git.
+  git config <!-- --global --> user.name "Seu nome" - Serve para cadastrar o nome da pessoa que esta fazendo a alteração
+  git push origin <!--master--> - neste comando estamos mandando os arquivos para o git no origin que já tinha sido predefinido, e estamos mandando o arquivo "master", ou seja a pasta que esta definida como master
