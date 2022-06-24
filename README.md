@@ -25,3 +25,5 @@ Comandos do git:
   git config <!-- --global --> user.email "seu email do git" - Esse comando permite que o git coloque seu repositório no github pelo email registrado, vale adicionar também que esse --global serve para cadastrar seu emal como global, sem ele você tem que fazer esse comando para toda a vez que tiver um repositório que deseje ser passado para o git.
   git config <!-- --global --> user.name "Seu nome" - Serve para cadastrar o nome da pessoa que esta fazendo a alteração
   git push origin <!--master--> - neste comando estamos mandando os arquivos para o git no origin que já tinha sido predefinido, e estamos mandando o arquivo "master", ou seja a pasta que esta definida como master
+  **Caso as versões que estão no git e na sua maquina não sejam a mesma ele dará um erro, para corrigir isso deve-se fazer um git pull primeiro e ele fará um merge, mas caso esse merge não funcione temos que ir manualmente no trecho que ele salientar e corrigir o que deve ficar e o que não deve;
+  git pull origin master - Neste caso o comando pega o que esta no github e coloca na maquina
