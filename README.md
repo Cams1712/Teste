@@ -21,3 +21,4 @@ Comandos do git:
   git add <!--Nome do arquivo--> - Sobe para um armazenamento temporario o arquivo selecionado
   git add --all - Adiciona TODOS os arquivos dentro da pasta para um armazenamento temporário
   git commit -m "Mensagem que fala um pouco sobre a mudança feita" - Serve para confirmar as mudanças feitas e salvar essas mudanças
+  git remote add origin <!--Link do repositório de destino--> - Faz com que o repositório tenha sido setado como destindo do upload dos arquivos
